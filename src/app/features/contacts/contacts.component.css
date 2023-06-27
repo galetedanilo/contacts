@@ -1,0 +1,11 @@
+mat-toolbar {
+  justify-content: space-between
+}
+
+span {
+  cursor: pointer;
+}
+
+main {
+  padding: 50px;
+}

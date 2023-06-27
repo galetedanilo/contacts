@@ -1,0 +1,9 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title i18n>Add new contact</mat-card-title>
+    <mat-card-subtitle i18n>Enter your new contact data</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <app-contact-form (formValues)="onSubmit($event)" />
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <span routerLink="/" aria-label="My contacts, link to contacts list page" i18n
+    >My Contacts ({{total()}})</span
+  >
+  <button
+    mat-icon-button
+    routerLink="/contacts/add"
+    aria-label="Add new contact button"
+  >
+    <mat-icon>add</mat-icon>
+  </button>
+</mat-toolbar>
+<main>
+  <router-outlet />
+</main>

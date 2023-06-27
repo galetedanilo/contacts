@@ -1,0 +1,124 @@
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US" trgLang="pt">
+  <file original="ng.template" id="ngi18n">
+    <unit id="8953033926734869941">
+      <segment state="initial">
+        <source>Name</source>
+        <target>Nome</target>
+      </segment>
+    </unit>
+    <unit id="6236952147012187933">
+      <segment state="initial">
+        <source>Ex. your full name</source>
+        <target>Ex. seu nome completo</target>
+      </segment>
+    </unit>
+    <unit id="4192548578052567748">
+      <segment state="initial">
+        <source> Name is <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">required</pc></source>
+        <target> Nome é <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">obrigatório</pc></target>
+      </segment>
+    </unit>
+    <unit id="1335835374415417489">
+      <segment state="initial">
+        <source>Max 40 characters</source>
+        <target>Máximo 40 caracteres</target>
+      </segment>
+    </unit>
+    <unit id="6673626898717784752">
+      <segment state="initial">
+        <source> Please enter a valid email address </source>
+        <target> Por favor digite um e-mail valido </target>
+      </segment>
+    </unit>
+    <unit id="6866065602103806507">
+      <segment state="initial">
+        <source> Email is <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">required</pc></source>
+        <target> E-mail é <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">obrigatório</pc></target>
+      </segment>
+    </unit>
+    <unit id="3683470988657026306">
+      <segment state="initial">
+        <source> Phone is <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">required</pc></source>
+        <target> Telefone é <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">obrigatório</pc></target>
+      </segment>
+    </unit>
+    <unit id="4828087751373130337">
+      <segment state="initial">
+        <source>Max 20 characters</source>
+        <target>Máximo 20 caracteres</target>
+      </segment>
+    </unit>
+    <unit id="3620188369327429839">
+      <segment state="initial">
+        <source> Save </source>
+        <target> Salvar </target>
+      </segment>
+    </unit>
+    <unit id="8132424293432274889">
+      <segment state="initial">
+        <source> Back </source>
+        <target> Voltar </target>
+      </segment>
+    </unit>
+    <unit id="4682648983704084363">
+      <segment state="initial">
+        <source>My Contacts (<ph id="0" equiv="INTERPOLATION" disp="{{total()}}"/>)</source>
+        <target>Meus Contatos (<ph id="0" equiv="INTERPOLATION" disp="{{total()}}"/>)</target>
+      </segment>
+    </unit>
+    <unit id="3085067064598901346">
+      <segment state="initial">
+        <source>Add new contact</source>
+        <target>Criar novo contato</target>
+      </segment>
+    </unit>
+    <unit id="6731839448407678116">
+      <segment state="initial">
+        <source>Enter your new contact data</source>
+        <target>Digite as informações do seu novo contato</target>
+      </segment>
+    </unit>
+    <unit id="4791048084439688810">
+      <segment state="initial">
+        <source>Edit contact</source>
+        <target>Editar contato</target>
+      </segment>
+    </unit>
+    <unit id="120434448361290823">
+      <segment state="initial">
+        <source>Edit your contact informations</source>
+        <target>Editar as informações do seu contato</target>
+      </segment>
+    </unit>
+    <unit id="6944253924739193523">
+      <segment state="initial">
+        <source>List of members</source>
+        <target>Lista de membros</target>
+      </segment>
+    </unit>
+    <unit id="5945986349492910662">
+      <segment state="initial">
+        <source>Contacts</source>
+        <target>Contatos</target>
+      </segment>
+    </unit>
+    <unit id="7022070615528435141">
+      <segment state="initial">
+        <source>Delete</source>
+        <target>Deletar</target>
+      </segment>
+    </unit>
+    <unit id="9197712331658779224">
+      <segment state="initial">
+        <source>Delete contact</source>
+        <target>Deletar contato</target>
+      </segment>
+    </unit>
+    <unit id="2168577617665230647">
+      <segment state="initial">
+        <source>Do you really want to delete this contact</source>
+        <target>Você realmente deseja deletar este contato</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

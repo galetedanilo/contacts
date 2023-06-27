@@ -1,0 +1,9 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title i18n>Edit contact</mat-card-title>
+    <mat-card-subtitle i18n>Edit your contact informations</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <app-contact-form [data]="contact" (formValues)="onSubmit($event)" />
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US">
+  <file id="ngi18n" original="ng.template">
+    <unit id="120434448361290823">
+      <segment>
+        <source>Edit your contact informations</source>
+      </segment>
+    </unit>
+    <unit id="1335835374415417489">
+      <segment>
+        <source>Max 40 characters</source>
+      </segment>
+    </unit>
+    <unit id="2168577617665230647">
+      <segment>
+        <source>Do you really want to delete this contact</source>
+      </segment>
+    </unit>
+    <unit id="3085067064598901346">
+      <segment>
+        <source>Add new contact</source>
+      </segment>
+    </unit>
+    <unit id="3620188369327429839">
+      <segment>
+        <source> Save </source>
+      </segment>
+    </unit>
+    <unit id="3683470988657026306">
+      <segment>
+        <source> Phone is <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">required</pc></source>
+      </segment>
+    </unit>
+    <unit id="4192548578052567748">
+      <segment>
+        <source> Name is <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">required</pc></source>
+      </segment>
+    </unit>
+    <unit id="4682648983704084363">
+      <segment>
+        <source>My Contacts (<ph id="0" equiv="INTERPOLATION" disp="{{total()}}"/>)</source>
+      </segment>
+    </unit>
+    <unit id="4791048084439688810">
+      <segment>
+        <source>Edit contact</source>
+      </segment>
+    </unit>
+    <unit id="4828087751373130337">
+      <segment>
+        <source>Max 20 characters</source>
+      </segment>
+    </unit>
+    <unit id="5945986349492910662">
+      <segment>
+        <source>Contacts</source>
+      </segment>
+    </unit>
+    <unit id="6236952147012187933">
+      <segment>
+        <source>Ex. your full name</source>
+      </segment>
+    </unit>
+    <unit id="6673626898717784752">
+      <segment>
+        <source> Please enter a valid email address </source>
+      </segment>
+    </unit>
+    <unit id="6731839448407678116">
+      <segment>
+        <source>Enter your new contact data</source>
+      </segment>
+    </unit>
+    <unit id="6866065602103806507">
+      <segment>
+        <source> Email is <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">required</pc></source>
+      </segment>
+    </unit>
+    <unit id="6944253924739193523">
+      <segment>
+        <source>List of members</source>
+      </segment>
+    </unit>
+    <unit id="7022070615528435141">
+      <segment>
+        <source>Delete</source>
+      </segment>
+    </unit>
+    <unit id="8132424293432274889">
+      <segment>
+        <source> Back </source>
+      </segment>
+    </unit>
+    <unit id="8953033926734869941">
+      <segment>
+        <source>Name</source>
+      </segment>
+    </unit>
+    <unit id="9197712331658779224">
+      <segment>
+        <source>Delete contact</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>
