@@ -11,6 +11,7 @@ export class ContactsFacadeService {
   private _router = inject(Router);
 
   contacts = this._state.contacts;
+  contactDetails = this._state.contactsDetails;
   totalContacts = this._state.totalContacts;
 
   addContacts(contact: ContactModel): void {
@@ -22,6 +23,10 @@ export class ContactsFacadeService {
   editContact(contact: ContactModel): void {
     this._state.editContact(contact);
     this._router.navigate(['/']);
+  }
+
+  getContactt(id: string): void {
+    this._state.getContact(id);
   }
 
   removeContact(contact: ContactModel): void {

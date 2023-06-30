@@ -1,11 +1,12 @@
 import { Injectable, computed, signal } from '@angular/core';
-import { ContactModel } from '../models/contact.model';
+import { ContactModel, INIT_CONTACT_VALUES } from '../models/contact.model';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ContactsStateService {
   contacts = signal<ContactModel[]>([]);
+  contactsDetails = signal<ContactModel>(INIT_CONTACT_VALUES);
   totalContacts = computed(() => this.contacts().length);
 
   addContact(contact: ContactModel): void {
@@ -17,6 +18,14 @@ export class ContactsStateService {
 
     if (index >= 0) {
       this.contacts.mutate((values) => (values[index] = contact));
+    }
+  }
+
+  getContact(id: string): void {
+    const contact = this.contacts().find((data) => data.id === id);
+
+    if (contact) {
+      this.contactsDetails.update((_) => contact);
     }
   }
 

@@ -31,6 +31,10 @@ export class ListComponent {
 
   contacts = this._facade.contacts;
 
+  onDetails(contact: ContactModel): void {
+    this._router.navigate(['contacts', contact.id, 'details']);
+  }
+
   onEdit(contact: ContactModel): void {
     this._router.navigate(['contacts', contact.id, 'edit'], { state: { contact } });
   }
