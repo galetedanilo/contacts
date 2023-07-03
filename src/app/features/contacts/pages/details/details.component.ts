@@ -12,12 +12,12 @@ import { ContactsFacadeService } from '../../facades/contacts-facade.service';
 export class DetailsComponent implements OnInit {
   private _facade = inject(ContactsFacadeService);
 
+  contact = this._facade.contactDetails;
+
   @Input()
   id!: string;
 
-  contact = this._facade.contactDetails
-
   ngOnInit(): void {
-    this._facade.getContactt(this.id);
+    this._facade.getContactDetails(this.id);
   }
 }

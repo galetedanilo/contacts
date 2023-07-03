@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
@@ -24,19 +24,25 @@ import { Router } from '@angular/router';
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.css'],
 })
-export class ListComponent {
+export class ListComponent implements OnInit {
   private _facade = inject(ContactsFacadeService);
   private _dialog = inject(MatDialog);
   private _router = inject(Router);
 
   contacts = this._facade.contacts;
 
+  ngOnInit(): void {
+    this._facade.getContacts();
+  }
+
   onDetails(contact: ContactModel): void {
     this._router.navigate(['contacts', contact.id, 'details']);
   }
 
   onEdit(contact: ContactModel): void {
-    this._router.navigate(['contacts', contact.id, 'edit'], { state: { contact } });
+    this._router.navigate(['contacts', contact.id, 'edit'], {
+      state: { contact },
+    });
   }
 
   onDelete(contact: ContactModel): void {
