@@ -2,9 +2,15 @@
   "contacts": [
     {
       "id": 1,
-      "name": "joão da silva silva",
+      "name": "joão da silva",
       "email": "joaosilva@gmail.com",
       "phone": "123456"
+    },
+    {
+      "id": 2,
+      "name": "maria rosa",
+      "email": "mariarosa@gmail.com",
+      "phone": "4589988788"
     }
   ]
 }

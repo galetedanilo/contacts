@@ -25,22 +25,22 @@ import { Router } from '@angular/router';
   styleUrls: ['./list.component.css'],
 })
 export class ListComponent implements OnInit {
-  private _facade = inject(ContactsFacadeService);
-  private _dialog = inject(MatDialog);
-  private _router = inject(Router);
+  #facade = inject(ContactsFacadeService);
+  #dialog = inject(MatDialog);
+  #router = inject(Router);
 
-  contacts = this._facade.contacts;
+  contacts = this.#facade.contacts;
 
   ngOnInit(): void {
-    this._facade.getContacts();
+    this.#facade.getContacts();
   }
 
   onDetails(contact: ContactModel): void {
-    this._router.navigate(['contacts', contact.id, 'details']);
+    this.#router.navigate(['contacts', contact.id, 'details']);
   }
 
   onEdit(contact: ContactModel): void {
-    this._router.navigate(['contacts', contact.id, 'edit'], {
+    this.#router.navigate(['contacts', contact.id, 'edit'], {
       state: { contact },
     });
   }
@@ -50,13 +50,13 @@ export class ListComponent implements OnInit {
 
     dialogRef.afterClosed().subscribe((result) => {
       if (result) {
-        this._facade.removeContact(contact);
+        this.#facade.removeContact(contact);
       }
     });
   }
 
   private openConfirmationDialog() {
-    return this._dialog.open(ConfirmationDialogComponent, {
+    return this.#dialog.open(ConfirmationDialogComponent, {
       data: {
         title: $localize`Delete`,
         subtitle: $localize`Delete contact`,

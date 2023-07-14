@@ -16,20 +16,20 @@ import { Router } from '@angular/router';
 export class EditComponent implements OnInit {
   contact!: ContactModel;
 
-  private _facade = inject(ContactsFacadeService);
-  private _location =  inject(Location);
-  private _router = inject(Router);
+  #facade = inject(ContactsFacadeService);
+  #location =  inject(Location);
+  #router = inject(Router);
 
   ngOnInit(): void {
-   this.contact = (this._location.getState() as any).contact as ContactModel;
+   this.contact = (this.#location.getState() as any).contact as ContactModel;
 
    if (!this.contact) {
-    this._router.navigate(['/'])
+    this.#router.navigate(['/'])
    }
    
   }
 
   onSubmit(contact: ContactModel): void {
-    this._facade.editContact(contact);
+    this.#facade.editContact(contact);
   }
 }

@@ -10,14 +10,14 @@ import { ContactsFacadeService } from '../../facades/contacts-facade.service';
   styleUrls: ['./details.component.css'],
 })
 export class DetailsComponent implements OnInit {
-  private _facade = inject(ContactsFacadeService);
+  #facade = inject(ContactsFacadeService);
 
-  contact = this._facade.contactDetails;
+  contact = this.#facade.contactDetails;
 
   @Input()
   id!: string;
 
   ngOnInit(): void {
-    this._facade.getContactDetails(this.id);
+    this.#facade.getContactDetails(this.id);
   }
 }

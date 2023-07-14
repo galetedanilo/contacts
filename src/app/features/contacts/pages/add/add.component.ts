@@ -18,9 +18,9 @@ import { ContactFormComponent } from '../../components/contact-form/contact-form
   styleUrls: ['./add.component.css'],
 })
 export class AddComponent {
-  private _facade = inject(ContactsFacadeService);
+  #facade = inject(ContactsFacadeService);
 
   onSubmit(contact: ContactModel): void {
-    this._facade.addContacts(contact);
+    this.#facade.addContacts(contact);
   }
 }
